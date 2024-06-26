@@ -1,0 +1,112 @@
+/* 
+body{
+    background: black;
+}
+
+
+.box{
+    width: 200px;
+    height: 200px;
+    background: white;
+    border-radius: 50%;
+    position: relative;
+    animation-name: box-animation;
+    animation-duration: 5s;
+    animation-timing-function:linear;
+    animation-direction: alternate;
+    /* animation-delay: 10s; */
+/* } */
+
+/* @keyframes box-animation{/ */
+    /* 0%{/ */
+        /* left: 0; */
+        /* background: red; */
+    /* } */
+    /* 10%{ */
+        /* left: 550px;/ */
+        /* background: rgb(16/4, 48, 48); */
+    /* }/ */
+    /* 20%{ */
+        /* left: 550px; */
+        /* background: rgb(192, 110, 110); */
+    /* } */
+    /* 30%{ */
+        /* left: 55/0px; */
+        /* background: rgb(223, 185, 185); */
+    /* } */
+    /* 40%{ */
+        /* left: 550px; */
+        /* background: rgb(207, 202, 202); */
+    /* }/// */
+    /* 50%{ */
+        /* left: 550px; */
+        /* background: white; */
+    /* }/ */
+    /* 60%{ */
+        /* left: 550px; */
+        /* background: rgb(105, 102, 135); */
+    /* } */
+  /*  */
+    /* 70%{ */
+        /* left: 550px; */
+        /* background: rgb(41, 24, 131); */
+    /* }/ */
+    /* 80%{ */
+        /* left: 550px; */
+        /* background: rgb(11, 154, 176); */
+    /* } */
+    /* 90%{ */
+        /* left: 550px; */
+        /* background: rgb(225, 154, 11); */
+    /* } */
+    /* 100%{ */
+        /* left: 0; */
+        /* background: rgb(15, 151, 49); */
+    /* } */
+/* } */
+
+
+.box{
+    width: 130px;
+    height: 280px;
+    border-radius: 5px;
+    background: gray;
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    justify-content:center;
+    gap: 12px;
+}
+
+.red{
+    width: 80px;
+    height: 80px;
+    background: rgb(0, 0, 0);
+    border-radius: 50%;
+    animation: red-anim;
+}
+
+@keyframes red-anim{
+    0%{
+        background: black;
+    }
+    1%{
+        background: red;
+    }
+    100%{
+        background: red;
+    }
+}
+
+.yellow{
+    width: 80px;
+    height: 80px;
+    background: rgb(0, 0, 0);
+    border-radius: 50%;
+}
+.green{
+    width: 80px;
+    height: 80px;
+    background: rgb(0, 0, 0);
+    border-radius: 50%;
+}
